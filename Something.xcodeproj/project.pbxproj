@@ -9,21 +9,71 @@
 /* Begin PBXBuildFile section */
 		ACD676B42986C80700F10657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD676B32986C80700F10657 /* AppDelegate.swift */; };
 		ACD676B62986C80700F10657 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD676B52986C80700F10657 /* SceneDelegate.swift */; };
-		ACD676B82986C80700F10657 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD676B72986C80700F10657 /* ViewController.swift */; };
-		ACD676BB2986C80700F10657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD676B92986C80700F10657 /* Main.storyboard */; };
 		ACD676BD2986C80800F10657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD676BC2986C80800F10657 /* Assets.xcassets */; };
 		ACD676C02986C80800F10657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD676BE2986C80800F10657 /* LaunchScreen.storyboard */; };
+		ACD678242986D0CD00F10657 /* MainTapBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678232986D0CD00F10657 /* MainTapBarController.swift */; };
+		ACD678272986D10F00F10657 /* BagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678262986D10F00F10657 /* BagViewController.swift */; };
+		ACD678292986D12600F10657 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678282986D12600F10657 /* BuyViewController.swift */; };
+		ACD6782C2986D16400F10657 /* ForYouController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6782B2986D16400F10657 /* ForYouController.swift */; };
+		ACD6782E2986D17A00F10657 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6782D2986D17A00F10657 /* OrderView.swift */; };
+		ACD678302986D18D00F10657 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6782F2986D18D00F10657 /* ProfileView.swift */; };
+		ACD678322986D1A400F10657 /* PondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678312986D1A400F10657 /* PondView.swift */; };
+		ACD678352986D1DA00F10657 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678342986D1DA00F10657 /* SearchViewController.swift */; };
+		ACD678392986D20900F10657 /* MacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678382986D20900F10657 /* MacView.swift */; };
+		ACD6783B2986D21900F10657 /* WKWebViewMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6783A2986D21900F10657 /* WKWebViewMac.swift */; };
+		ACD6783D2986D22B00F10657 /* DescriptionMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6783C2986D22B00F10657 /* DescriptionMac.swift */; };
+		ACD678402986D25900F10657 /* StrapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6783F2986D25900F10657 /* StrapView.swift */; };
+		ACD678422986D26E00F10657 /* DescriptionStrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678412986D26E00F10657 /* DescriptionStrap.swift */; };
+		ACD678442986D27F00F10657 /* WKWebViewStrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678432986D27F00F10657 /* WKWebViewStrap.swift */; };
+		ACD678472986D2A200F10657 /* LeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678462986D2A200F10657 /* LeatherView.swift */; };
+		ACD678492986D2BF00F10657 /* DescriptionLeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678482986D2BF00F10657 /* DescriptionLeather.swift */; };
+		ACD6784B2986D2CF00F10657 /* WKWebViewLeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6784A2986D2CF00F10657 /* WKWebViewLeather.swift */; };
+		ACD678632986D31400F10657 /* Extension + UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678622986D31400F10657 /* Extension + UIButton.swift */; };
+		ACD678652986D32200F10657 /* Extension + UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678642986D32200F10657 /* Extension + UILabel.swift */; };
+		ACD678672986D32B00F10657 /* Extension + UIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678662986D32B00F10657 /* Extension + UIProgressView.swift */; };
+		ACD678692986D33600F10657 /* Extension + UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678682986D33600F10657 /* Extension + UIScrollView.swift */; };
+		ACD6786B2986D34500F10657 /* Extension + UISearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6786A2986D34500F10657 /* Extension + UISearchController.swift */; };
+		ACD6786D2986D35100F10657 /* Extension + UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6786C2986D35100F10657 /* Extension + UIStackView.swift */; };
+		ACD6786F2986D35900F10657 /* Extension + UIToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD6786E2986D35900F10657 /* Extension + UIToolbar.swift */; };
+		ACD678712986D36200F10657 /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678702986D36200F10657 /* Extension + UIView.swift */; };
+		ACD678732986D37400F10657 /* Extension + UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678722986D37400F10657 /* Extension + UIViewController.swift */; };
+		ACD678752986D37B00F10657 /* Extension + UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD678742986D37B00F10657 /* Extension + UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACD676B02986C80700F10657 /* Something.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Something.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD676B32986C80700F10657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACD676B52986C80700F10657 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACD676B72986C80700F10657 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ACD676BA2986C80700F10657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACD676BC2986C80800F10657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD676BF2986C80800F10657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACD676C12986C80800F10657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD678232986D0CD00F10657 /* MainTapBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTapBarController.swift; sourceTree = "<group>"; };
+		ACD678262986D10F00F10657 /* BagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagViewController.swift; sourceTree = "<group>"; };
+		ACD678282986D12600F10657 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		ACD6782B2986D16400F10657 /* ForYouController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouController.swift; sourceTree = "<group>"; };
+		ACD6782D2986D17A00F10657 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		ACD6782F2986D18D00F10657 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		ACD678312986D1A400F10657 /* PondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PondView.swift; sourceTree = "<group>"; };
+		ACD678342986D1DA00F10657 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		ACD678382986D20900F10657 /* MacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacView.swift; sourceTree = "<group>"; };
+		ACD6783A2986D21900F10657 /* WKWebViewMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewMac.swift; sourceTree = "<group>"; };
+		ACD6783C2986D22B00F10657 /* DescriptionMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionMac.swift; sourceTree = "<group>"; };
+		ACD6783F2986D25900F10657 /* StrapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrapView.swift; sourceTree = "<group>"; };
+		ACD678412986D26E00F10657 /* DescriptionStrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionStrap.swift; sourceTree = "<group>"; };
+		ACD678432986D27F00F10657 /* WKWebViewStrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewStrap.swift; sourceTree = "<group>"; };
+		ACD678462986D2A200F10657 /* LeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeatherView.swift; sourceTree = "<group>"; };
+		ACD678482986D2BF00F10657 /* DescriptionLeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionLeather.swift; sourceTree = "<group>"; };
+		ACD6784A2986D2CF00F10657 /* WKWebViewLeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewLeather.swift; sourceTree = "<group>"; };
+		ACD678622986D31400F10657 /* Extension + UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIButton.swift"; sourceTree = "<group>"; };
+		ACD678642986D32200F10657 /* Extension + UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UILabel.swift"; sourceTree = "<group>"; };
+		ACD678662986D32B00F10657 /* Extension + UIProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIProgressView.swift"; sourceTree = "<group>"; };
+		ACD678682986D33600F10657 /* Extension + UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIScrollView.swift"; sourceTree = "<group>"; };
+		ACD6786A2986D34500F10657 /* Extension + UISearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UISearchController.swift"; sourceTree = "<group>"; };
+		ACD6786C2986D35100F10657 /* Extension + UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIStackView.swift"; sourceTree = "<group>"; };
+		ACD6786E2986D35900F10657 /* Extension + UIToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIToolbar.swift"; sourceTree = "<group>"; };
+		ACD678702986D36200F10657 /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
+		ACD678722986D37400F10657 /* Extension + UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIViewController.swift"; sourceTree = "<group>"; };
+		ACD678742986D37B00F10657 /* Extension + UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIImageView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +106,128 @@
 		ACD676B22986C80700F10657 /* Something */ = {
 			isa = PBXGroup;
 			children = (
-				ACD676B32986C80700F10657 /* AppDelegate.swift */,
-				ACD676B52986C80700F10657 /* SceneDelegate.swift */,
-				ACD676B72986C80700F10657 /* ViewController.swift */,
-				ACD676B92986C80700F10657 /* Main.storyboard */,
+				ACD6784C2986D2E700F10657 /* Extensions */,
+				ACD678252986D0F900F10657 /* Controllers */,
+				ACD677422986CA1700F10657 /* Others */,
+				ACD677432986CA1F00F10657 /* Supporting */,
+				ACD678222986D0AF00F10657 /* MainTapBarController */,
+			);
+			path = Something;
+			sourceTree = "<group>";
+		};
+		ACD677422986CA1700F10657 /* Others */ = {
+			isa = PBXGroup;
+			children = (
 				ACD676BC2986C80800F10657 /* Assets.xcassets */,
 				ACD676BE2986C80800F10657 /* LaunchScreen.storyboard */,
 				ACD676C12986C80800F10657 /* Info.plist */,
 			);
-			path = Something;
+			path = Others;
+			sourceTree = "<group>";
+		};
+		ACD677432986CA1F00F10657 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				ACD676B32986C80700F10657 /* AppDelegate.swift */,
+				ACD676B52986C80700F10657 /* SceneDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		ACD678222986D0AF00F10657 /* MainTapBarController */ = {
+			isa = PBXGroup;
+			children = (
+				ACD678232986D0CD00F10657 /* MainTapBarController.swift */,
+			);
+			path = MainTapBarController;
+			sourceTree = "<group>";
+		};
+		ACD678252986D0F900F10657 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACD678332986D1B300F10657 /* SearchViewController */,
+				ACD6782A2986D15300F10657 /* ForYouController */,
+				ACD678262986D10F00F10657 /* BagViewController.swift */,
+				ACD678282986D12600F10657 /* BuyViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ACD6782A2986D15300F10657 /* ForYouController */ = {
+			isa = PBXGroup;
+			children = (
+				ACD6782B2986D16400F10657 /* ForYouController.swift */,
+				ACD6782D2986D17A00F10657 /* OrderView.swift */,
+				ACD6782F2986D18D00F10657 /* ProfileView.swift */,
+				ACD678312986D1A400F10657 /* PondView.swift */,
+			);
+			path = ForYouController;
+			sourceTree = "<group>";
+		};
+		ACD678332986D1B300F10657 /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ACD678342986D1DA00F10657 /* SearchViewController.swift */,
+				ACD678362986D1F000F10657 /* ProductsView */,
+			);
+			path = SearchViewController;
+			sourceTree = "<group>";
+		};
+		ACD678362986D1F000F10657 /* ProductsView */ = {
+			isa = PBXGroup;
+			children = (
+				ACD678452986D28E00F10657 /* CaseLeather */,
+				ACD6783E2986D24500F10657 /* CaseStrap */,
+				ACD678372986D1FB00F10657 /* CaseMac */,
+			);
+			path = ProductsView;
+			sourceTree = "<group>";
+		};
+		ACD678372986D1FB00F10657 /* CaseMac */ = {
+			isa = PBXGroup;
+			children = (
+				ACD678382986D20900F10657 /* MacView.swift */,
+				ACD6783A2986D21900F10657 /* WKWebViewMac.swift */,
+				ACD6783C2986D22B00F10657 /* DescriptionMac.swift */,
+			);
+			path = CaseMac;
+			sourceTree = "<group>";
+		};
+		ACD6783E2986D24500F10657 /* CaseStrap */ = {
+			isa = PBXGroup;
+			children = (
+				ACD6783F2986D25900F10657 /* StrapView.swift */,
+				ACD678412986D26E00F10657 /* DescriptionStrap.swift */,
+				ACD678432986D27F00F10657 /* WKWebViewStrap.swift */,
+			);
+			path = CaseStrap;
+			sourceTree = "<group>";
+		};
+		ACD678452986D28E00F10657 /* CaseLeather */ = {
+			isa = PBXGroup;
+			children = (
+				ACD678462986D2A200F10657 /* LeatherView.swift */,
+				ACD678482986D2BF00F10657 /* DescriptionLeather.swift */,
+				ACD6784A2986D2CF00F10657 /* WKWebViewLeather.swift */,
+			);
+			path = CaseLeather;
+			sourceTree = "<group>";
+		};
+		ACD6784C2986D2E700F10657 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ACD678622986D31400F10657 /* Extension + UIButton.swift */,
+				ACD678642986D32200F10657 /* Extension + UILabel.swift */,
+				ACD678662986D32B00F10657 /* Extension + UIProgressView.swift */,
+				ACD678682986D33600F10657 /* Extension + UIScrollView.swift */,
+				ACD6786A2986D34500F10657 /* Extension + UISearchController.swift */,
+				ACD6786C2986D35100F10657 /* Extension + UIStackView.swift */,
+				ACD6786E2986D35900F10657 /* Extension + UIToolbar.swift */,
+				ACD678702986D36200F10657 /* Extension + UIView.swift */,
+				ACD678722986D37400F10657 /* Extension + UIViewController.swift */,
+				ACD678742986D37B00F10657 /* Extension + UIImageView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +290,6 @@
 			files = (
 				ACD676C02986C80800F10657 /* LaunchScreen.storyboard in Resources */,
 				ACD676BD2986C80800F10657 /* Assets.xcassets in Resources */,
-				ACD676BB2986C80700F10657 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +300,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD676B82986C80700F10657 /* ViewController.swift in Sources */,
+				ACD678352986D1DA00F10657 /* SearchViewController.swift in Sources */,
+				ACD6783B2986D21900F10657 /* WKWebViewMac.swift in Sources */,
+				ACD678672986D32B00F10657 /* Extension + UIProgressView.swift in Sources */,
+				ACD678652986D32200F10657 /* Extension + UILabel.swift in Sources */,
+				ACD678492986D2BF00F10657 /* DescriptionLeather.swift in Sources */,
+				ACD678302986D18D00F10657 /* ProfileView.swift in Sources */,
 				ACD676B42986C80700F10657 /* AppDelegate.swift in Sources */,
+				ACD6786F2986D35900F10657 /* Extension + UIToolbar.swift in Sources */,
+				ACD678442986D27F00F10657 /* WKWebViewStrap.swift in Sources */,
+				ACD678292986D12600F10657 /* BuyViewController.swift in Sources */,
+				ACD678402986D25900F10657 /* StrapView.swift in Sources */,
+				ACD6784B2986D2CF00F10657 /* WKWebViewLeather.swift in Sources */,
 				ACD676B62986C80700F10657 /* SceneDelegate.swift in Sources */,
+				ACD678692986D33600F10657 /* Extension + UIScrollView.swift in Sources */,
+				ACD678712986D36200F10657 /* Extension + UIView.swift in Sources */,
+				ACD678472986D2A200F10657 /* LeatherView.swift in Sources */,
+				ACD6786D2986D35100F10657 /* Extension + UIStackView.swift in Sources */,
+				ACD678632986D31400F10657 /* Extension + UIButton.swift in Sources */,
+				ACD6786B2986D34500F10657 /* Extension + UISearchController.swift in Sources */,
+				ACD6783D2986D22B00F10657 /* DescriptionMac.swift in Sources */,
+				ACD6782C2986D16400F10657 /* ForYouController.swift in Sources */,
+				ACD678422986D26E00F10657 /* DescriptionStrap.swift in Sources */,
+				ACD678732986D37400F10657 /* Extension + UIViewController.swift in Sources */,
+				ACD6782E2986D17A00F10657 /* OrderView.swift in Sources */,
+				ACD678242986D0CD00F10657 /* MainTapBarController.swift in Sources */,
+				ACD678392986D20900F10657 /* MacView.swift in Sources */,
+				ACD678272986D10F00F10657 /* BagViewController.swift in Sources */,
+				ACD678752986D37B00F10657 /* Extension + UIImageView.swift in Sources */,
+				ACD678322986D1A400F10657 /* PondView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ACD676B92986C80700F10657 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ACD676BA2986C80700F10657 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ACD676BE2986C80800F10657 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,10 +468,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Something/Info.plist;
+				INFOPLIST_FILE = Something/Others/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,10 +494,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Something/Info.plist;
+				INFOPLIST_FILE = Something/Others/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
